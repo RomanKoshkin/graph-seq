@@ -1,0 +1,21 @@
+# paths
+path_to_data: "../datasets"
+W: 200                    # filter width, samples <<<<<<<<<<<<<<<<<, was 200
+dt: 0.05                  # frame length
+
+# device
+device: "cuda"
+
+K: 2                      # number of filters (assumed/known sequences)
+z_dim: 2                  # clustering dim
+
+
+frame_len_s: 0.050
+
+# number of samples to draw in one iteration to estimate NullDist
+numsamples: 100 # per iteration (at each iter we sample this many filters)
+niter: 10
+
+snapshot_interval: 20
+
+N: 452 # number of neurons in the dataset
