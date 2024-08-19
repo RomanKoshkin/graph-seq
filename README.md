@@ -12,7 +12,13 @@ self-similarity across time. We validate our method on synthetic data and real n
 
 ## Install dependencies
 
-We recommend starting with a fresh Conda environment and installing all the dependencies in `requirements.txt` (although not all of them are needed for the code in this repo to work).
+We recommend starting with a fresh Conda environment and installing all the dependencies in `requirements.txt` (although not all of them are needed for the code in this repo to work). Assuming that your CUDA version is 12.1:
+
+```bash
+conda create -n graphseq python=3.9
+conda activate graphseq
+pip install -r requirements.txt
+```
 
 ## Generate a synthetic dataset
 

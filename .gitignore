@@ -27,3 +27,8 @@ pictures/*.png
 !neuronal_activity_mat.mat
 .vscode/*
 !videos/output.gif
+notebooks/GraphSeq_3_seq.ipynb
+notebooks/GraphSeq_HVC.ipynb
+notebooks/1_seq_auc.ipynb
+notebooks/.ipynb_checkpoints
+scripts/boot_one_seq.py
